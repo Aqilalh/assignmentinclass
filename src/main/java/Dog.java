@@ -1,10 +1,10 @@
-public class Dog extends Canine implements Pet{
+public class Dog  implements Pet{
     @Override
     public void printName() {
 
     }
 
     public Dog(String name) {
-        super(name);
+        super();
     }
 }
